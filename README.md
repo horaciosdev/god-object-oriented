@@ -9,25 +9,12 @@
 
 ---
 
-## 🔮 Sobre o Projeto  
+## 🔮 Sobre o Projeto
 Este projeto implementa uma hierarquia de classes para representar diferentes concepções de divindade, usando:
-- **Atributos ontológicos** (Transcendência, Temporalidade)  
-- **Propriedades epistemológicas** (Presciência, Conhecimento Perfeito)  
-- **Características morais** (Moralidade Objetiva, Liberdade Divina)  
+- **Atributos ontológicos** (Transcendência, Temporalidade)
+- **Propriedades epistemológicas** (Presciência, Conhecimento Perfeito)
+- **Características morais** (Moralidade Objetiva, Liberdade Divina)
 
 Permite comparar visões teológicas (cristã, grega, panteísta) e analisar paradoxos através de implementações concretas.
 
 ---
-
-## 🧠 Estrutura do Código
-```plaintext
-ObjectOrientedGod.Core/
-├── God.cs                // Classe abstrata base
-├── Attributes/
-│   ├── Transcendence.cs  // Enum: Atemporal, Imanente
-│   ├── Temporality.cs    // Enum: Eterno, Sempiterno
-│   └── Morality.cs       // Enum: Objetiva, Subjetiva
-Concrete/
-├── ClassicalTheism/      // Implementações monoteístas
-├── Mythology/            // Deuses gregos/nórdicos
-└── Monism/               // Visões não-dualistas (Tao, Brahman)
